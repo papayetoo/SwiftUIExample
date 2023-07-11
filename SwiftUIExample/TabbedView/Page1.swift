@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Page1.swift
 //  SwiftUIExample
 //
 //  Created by 최최광현 on 2023/07/11.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Page1: View {
     var body: some View {
-        TabbedView()
+        Text("Hello from page1").fontWeight(.heavy)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Page1_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Page1()
     }
 }
