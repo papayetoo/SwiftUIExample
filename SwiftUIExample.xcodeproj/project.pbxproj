@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F07236E62A5ED73600EED246 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07236E52A5ED73600EED246 /* TopBar.swift */; };
+		F07236E92A5ED89800EED246 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07236E82A5ED89800EED246 /* SearchBar.swift */; };
+		F07236EC2A5EDB3E00EED246 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07236EB2A5EDB3E00EED246 /* ContextMenu.swift */; };
+		F07236EF2A5EDC2C00EED246 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07236EE2A5EDC2C00EED246 /* ImagePicker.swift */; };
 		F096977D2A5D770400C7774F /* SwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096977C2A5D770400C7774F /* SwiftUIExampleApp.swift */; };
 		F096977F2A5D770400C7774F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096977E2A5D770400C7774F /* ContentView.swift */; };
 		F09697812A5D770600C7774F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09697802A5D770600C7774F /* Assets.xcassets */; };
@@ -43,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F07236E52A5ED73600EED246 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		F07236E82A5ED89800EED246 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		F07236EB2A5EDB3E00EED246 /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
+		F07236EE2A5EDC2C00EED246 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		F09697792A5D770400C7774F /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F096977C2A5D770400C7774F /* SwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleApp.swift; sourceTree = "<group>"; };
 		F096977E2A5D770400C7774F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +97,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F07236E42A5ED6D600EED246 /* TopBar */ = {
+			isa = PBXGroup;
+			children = (
+				F07236E52A5ED73600EED246 /* TopBar.swift */,
+			);
+			path = TopBar;
+			sourceTree = "<group>";
+		};
+		F07236E72A5ED88E00EED246 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				F07236E82A5ED89800EED246 /* SearchBar.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		F07236EA2A5EDB3400EED246 /* ContextMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F07236EB2A5EDB3E00EED246 /* ContextMenu.swift */,
+			);
+			path = ContextMenu;
+			sourceTree = "<group>";
+		};
+		F07236ED2A5EDC1E00EED246 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F07236EE2A5EDC2C00EED246 /* ImagePicker.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
 		F09697702A5D770400C7774F = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +152,10 @@
 		F096977B2A5D770400C7774F /* SwiftUIExample */ = {
 			isa = PBXGroup;
 			children = (
+				F07236ED2A5EDC1E00EED246 /* ImagePicker */,
+				F07236EA2A5EDB3400EED246 /* ContextMenu */,
+				F07236E72A5ED88E00EED246 /* SearchBar */,
+				F07236E42A5ED6D600EED246 /* TopBar */,
 				F09697B32A5D805500C7774F /* TabbedView */,
 				F09697A92A5D7BDC00C7774F /* JSON */,
 				F096977C2A5D770400C7774F /* SwiftUIExampleApp.swift */,
@@ -308,12 +352,16 @@
 				F09697B52A5D806900C7774F /* Page1.swift in Sources */,
 				F09697B22A5D801A00C7774F /* JSONParsingList.swift in Sources */,
 				F096977F2A5D770400C7774F /* ContentView.swift in Sources */,
+				F07236EF2A5EDC2C00EED246 /* ImagePicker.swift in Sources */,
 				F096977D2A5D770400C7774F /* SwiftUIExampleApp.swift in Sources */,
+				F07236E62A5ED73600EED246 /* TopBar.swift in Sources */,
+				F07236E92A5ED89800EED246 /* SearchBar.swift in Sources */,
 				F09697BB2A5D870F00C7774F /* EdgeBorder.swift in Sources */,
 				F09697B92A5D80AA00C7774F /* TabbedView.swift in Sources */,
 				F09697A72A5D7B4500C7774F /* Grid.swift in Sources */,
 				F09697B72A5D808E00C7774F /* Page2.swift in Sources */,
 				F09697AE2A5D7C8800C7774F /* Datas.swift in Sources */,
+				F07236EC2A5EDB3E00EED246 /* ContextMenu.swift in Sources */,
 				F09697B02A5D7E2C00C7774F /* ListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
