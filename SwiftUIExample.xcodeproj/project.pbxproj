@@ -24,6 +24,7 @@
 		F07236E92A5ED89800EED246 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07236E82A5ED89800EED246 /* SearchBar.swift */; };
 		F07236EC2A5EDB3E00EED246 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07236EB2A5EDB3E00EED246 /* ContextMenu.swift */; };
 		F07236EF2A5EDC2C00EED246 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07236EE2A5EDC2C00EED246 /* ImagePicker.swift */; };
+		F08256E72A8E417C00BA1DB3 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08256E62A8E417C00BA1DB3 /* ActionSheet.swift */; };
 		F096977D2A5D770400C7774F /* SwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096977C2A5D770400C7774F /* SwiftUIExampleApp.swift */; };
 		F096977F2A5D770400C7774F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096977E2A5D770400C7774F /* ContentView.swift */; };
 		F09697812A5D770600C7774F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09697802A5D770600C7774F /* Assets.xcassets */; };
@@ -79,6 +80,7 @@
 		F07236E82A5ED89800EED246 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		F07236EB2A5EDB3E00EED246 /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
 		F07236EE2A5EDC2C00EED246 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F08256E62A8E417C00BA1DB3 /* ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
 		F09697792A5D770400C7774F /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F096977C2A5D770400C7774F /* SwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleApp.swift; sourceTree = "<group>"; };
 		F096977E2A5D770400C7774F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -233,6 +235,14 @@
 			path = ImagePicker;
 			sourceTree = "<group>";
 		};
+		F08256E52A8E416C00BA1DB3 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				F08256E62A8E417C00BA1DB3 /* ActionSheet.swift */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
 		F09697702A5D770400C7774F = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +266,7 @@
 		F096977B2A5D770400C7774F /* SwiftUIExample */ = {
 			isa = PBXGroup;
 			children = (
+				F08256E52A8E416C00BA1DB3 /* ActionSheet */,
 				F0511B482A696FEF00FF3391 /* AutoResizingTextfield */,
 				F0511B472A696FCB00FF3391 /* NavigationMenu */,
 				F0511B462A696FAD00FF3391 /* SwipeMenu */,
@@ -480,6 +491,7 @@
 				F0DE94452A7934E7000247AF /* Card.swift in Sources */,
 				F0DE94472A79353B000247AF /* Carousel.swift in Sources */,
 				F07236E92A5ED89800EED246 /* SearchBar.swift in Sources */,
+				F08256E72A8E417C00BA1DB3 /* ActionSheet.swift in Sources */,
 				F0661DE32A6565B3001EF295 /* BadgeButton.swift in Sources */,
 				F09697BB2A5D870F00C7774F /* EdgeBorder.swift in Sources */,
 				F0661DE72A6568AE001EF295 /* DropDownMenu.swift in Sources */,
