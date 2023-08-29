@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F02A424D2A9B4B70001ABC08 /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A424C2A9B4B70001ABC08 /* TripCard.swift */; };
+		F02A424F2A9B4BDE001ABC08 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A424E2A9B4BDE001ABC08 /* Home.swift */; };
 		F0511B432A695A2E00FF3391 /* NavigationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0511B422A695A2E00FF3391 /* NavigationMenu.swift */; };
 		F0511B452A696CB700FF3391 /* SwipeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0511B442A696CB700FF3391 /* SwipeMenu.swift */; };
 		F0511B4A2A69701200FF3391 /* MultilineTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0511B492A69701200FF3391 /* MultilineTextfield.swift */; };
@@ -41,6 +43,16 @@
 		F09697B72A5D808E00C7774F /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09697B62A5D808E00C7774F /* Page2.swift */; };
 		F09697B92A5D80AA00C7774F /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09697B82A5D80AA00C7774F /* TabbedView.swift */; };
 		F09697BB2A5D870F00C7774F /* EdgeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09697BA2A5D870F00C7774F /* EdgeBorder.swift */; };
+		F0C987EE2A9B64F80023F22C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FEB2802A9B620C00247C97 /* WidgetKit.framework */; };
+		F0C987EF2A9B64F90023F22C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FEB2822A9B620C00247C97 /* SwiftUI.framework */; };
+		F0C987F22A9B64F90023F22C /* EWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C987F12A9B64F90023F22C /* EWidgetBundle.swift */; };
+		F0C987F42A9B64F90023F22C /* EWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C987F32A9B64F90023F22C /* EWidget.swift */; };
+		F0C987F62A9B64FA0023F22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0C987F52A9B64FA0023F22C /* Assets.xcassets */; };
+		F0C987FA2A9B64FA0023F22C /* EWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F0C987ED2A9B64F80023F22C /* EWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F0C988002A9E15D90023F22C /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C987FF2A9E15D90023F22C /* ChartsView.swift */; };
+		F0C988032A9E1A9D0023F22C /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C988022A9E1A9D0023F22C /* Album.swift */; };
+		F0C988052A9E1AB50023F22C /* AlbumHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C988042A9E1AB50023F22C /* AlbumHome.swift */; };
+		F0C988072A9E23900023F22C /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C988062A9E23900023F22C /* CustomCorner.swift */; };
 		F0DE94452A7934E7000247AF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE94442A7934E7000247AF /* Card.swift */; };
 		F0DE94472A79353B000247AF /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE94462A79353B000247AF /* Carousel.swift */; };
 /* End PBXBuildFile section */
@@ -60,9 +72,32 @@
 			remoteGlobalIDString = F09697782A5D770400C7774F;
 			remoteInfo = SwiftUIExample;
 		};
+		F0C987F82A9B64FA0023F22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09697712A5D770400C7774F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0C987EC2A9B64F80023F22C;
+			remoteInfo = EWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F0C987D32A9B64040023F22C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F0C987FA2A9B64FA0023F22C /* EWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F02A424C2A9B4B70001ABC08 /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
+		F02A424E2A9B4BDE001ABC08 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		F0511B422A695A2E00FF3391 /* NavigationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMenu.swift; sourceTree = "<group>"; };
 		F0511B442A696CB700FF3391 /* SwipeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeMenu.swift; sourceTree = "<group>"; };
 		F0511B492A69701200FF3391 /* MultilineTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextfield.swift; sourceTree = "<group>"; };
@@ -99,8 +134,19 @@
 		F09697B62A5D808E00C7774F /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
 		F09697B82A5D80AA00C7774F /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
 		F09697BA2A5D870F00C7774F /* EdgeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeBorder.swift; sourceTree = "<group>"; };
+		F0C987ED2A9B64F80023F22C /* EWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C987F12A9B64F90023F22C /* EWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWidgetBundle.swift; sourceTree = "<group>"; };
+		F0C987F32A9B64F90023F22C /* EWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWidget.swift; sourceTree = "<group>"; };
+		F0C987F52A9B64FA0023F22C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0C987F72A9B64FA0023F22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C987FF2A9E15D90023F22C /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		F0C988022A9E1A9D0023F22C /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		F0C988042A9E1AB50023F22C /* AlbumHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumHome.swift; sourceTree = "<group>"; };
+		F0C988062A9E23900023F22C /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 		F0DE94442A7934E7000247AF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F0DE94462A79353B000247AF /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		F0FEB2802A9B620C00247C97 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F0FEB2822A9B620C00247C97 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +172,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0C987EA2A9B64F80023F22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C987EF2A9B64F90023F22C /* SwiftUI.framework in Frameworks */,
+				F0C987EE2A9B64F80023F22C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F02A424B2A9B4B46001ABC08 /* CarouselScroll */ = {
+			isa = PBXGroup;
+			children = (
+				F02A424C2A9B4B70001ABC08 /* TripCard.swift */,
+				F02A424E2A9B4BDE001ABC08 /* Home.swift */,
+			);
+			path = CarouselScroll;
+			sourceTree = "<group>";
+		};
 		F0511B462A696FAD00FF3391 /* SwipeMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +313,8 @@
 				F096977B2A5D770400C7774F /* SwiftUIExample */,
 				F096978C2A5D770600C7774F /* SwiftUIExampleTests */,
 				F09697962A5D770600C7774F /* SwiftUIExampleUITests */,
+				F0C987F02A9B64F90023F22C /* EWidget */,
+				F0FEB27F2A9B620C00247C97 /* Frameworks */,
 				F096977A2A5D770400C7774F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -259,6 +325,7 @@
 				F09697792A5D770400C7774F /* SwiftUIExample.app */,
 				F09697892A5D770600C7774F /* SwiftUIExampleTests.xctest */,
 				F09697932A5D770600C7774F /* SwiftUIExampleUITests.xctest */,
+				F0C987ED2A9B64F80023F22C /* EWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -266,6 +333,9 @@
 		F096977B2A5D770400C7774F /* SwiftUIExample */ = {
 			isa = PBXGroup;
 			children = (
+				F0C988012A9E1A680023F22C /* AnimationChallenge */,
+				F0C987FE2A9E15C90023F22C /* Charts */,
+				F02A424B2A9B4B46001ABC08 /* CarouselScroll */,
 				F08256E52A8E416C00BA1DB3 /* ActionSheet */,
 				F0511B482A696FEF00FF3391 /* AutoResizingTextfield */,
 				F0511B472A696FCB00FF3391 /* NavigationMenu */,
@@ -341,6 +411,44 @@
 			path = TabbedView;
 			sourceTree = "<group>";
 		};
+		F0C987F02A9B64F90023F22C /* EWidget */ = {
+			isa = PBXGroup;
+			children = (
+				F0C987F12A9B64F90023F22C /* EWidgetBundle.swift */,
+				F0C987F32A9B64F90023F22C /* EWidget.swift */,
+				F0C987F52A9B64FA0023F22C /* Assets.xcassets */,
+				F0C987F72A9B64FA0023F22C /* Info.plist */,
+			);
+			path = EWidget;
+			sourceTree = "<group>";
+		};
+		F0C987FE2A9E15C90023F22C /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				F0C987FF2A9E15D90023F22C /* ChartsView.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		F0C988012A9E1A680023F22C /* AnimationChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				F0C988022A9E1A9D0023F22C /* Album.swift */,
+				F0C988042A9E1AB50023F22C /* AlbumHome.swift */,
+				F0C988062A9E23900023F22C /* CustomCorner.swift */,
+			);
+			path = AnimationChallenge;
+			sourceTree = "<group>";
+		};
+		F0FEB27F2A9B620C00247C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0FEB2802A9B620C00247C97 /* WidgetKit.framework */,
+				F0FEB2822A9B620C00247C97 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -351,10 +459,12 @@
 				F09697752A5D770400C7774F /* Sources */,
 				F09697762A5D770400C7774F /* Frameworks */,
 				F09697772A5D770400C7774F /* Resources */,
+				F0C987D32A9B64040023F22C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F0C987F92A9B64FA0023F22C /* PBXTargetDependency */,
 			);
 			name = SwiftUIExample;
 			packageProductDependencies = (
@@ -400,6 +510,23 @@
 			productReference = F09697932A5D770600C7774F /* SwiftUIExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F0C987EC2A9B64F80023F22C /* EWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C987FB2A9B64FA0023F22C /* Build configuration list for PBXNativeTarget "EWidgetExtension" */;
+			buildPhases = (
+				F0C987E92A9B64F80023F22C /* Sources */,
+				F0C987EA2A9B64F80023F22C /* Frameworks */,
+				F0C987EB2A9B64F80023F22C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EWidgetExtension;
+			productName = EWidgetExtension;
+			productReference = F0C987ED2A9B64F80023F22C /* EWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -420,6 +547,9 @@
 					F09697922A5D770600C7774F = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = F09697782A5D770400C7774F;
+					};
+					F0C987EC2A9B64F80023F22C = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
@@ -442,6 +572,7 @@
 				F09697782A5D770400C7774F /* SwiftUIExample */,
 				F09697882A5D770600C7774F /* SwiftUIExampleTests */,
 				F09697922A5D770600C7774F /* SwiftUIExampleUITests */,
+				F0C987EC2A9B64F80023F22C /* EWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -471,6 +602,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0C987EB2A9B64F80023F22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C987F62A9B64FA0023F22C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -479,15 +618,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F09697B52A5D806900C7774F /* Page1.swift in Sources */,
+				F02A424F2A9B4BDE001ABC08 /* Home.swift in Sources */,
 				F09697B22A5D801A00C7774F /* JSONParsingList.swift in Sources */,
 				F096977F2A5D770400C7774F /* ContentView.swift in Sources */,
 				F0511B452A696CB700FF3391 /* SwipeMenu.swift in Sources */,
 				F0661DE92A6570BC001EF295 /* CustomAlert.swift in Sources */,
 				F07236EF2A5EDC2C00EED246 /* ImagePicker.swift in Sources */,
 				F096977D2A5D770400C7774F /* SwiftUIExampleApp.swift in Sources */,
+				F0C988032A9E1A9D0023F22C /* Album.swift in Sources */,
 				F07236E62A5ED73600EED246 /* TopBar.swift in Sources */,
+				F0C988052A9E1AB50023F22C /* AlbumHome.swift in Sources */,
+				F0C988072A9E23900023F22C /* CustomCorner.swift in Sources */,
 				F0661DD72A64030B001EF295 /* MyView.swift in Sources */,
 				F0661DD42A640217001EF295 /* MyViewController.swift in Sources */,
+				F0C988002A9E15D90023F22C /* ChartsView.swift in Sources */,
 				F0DE94452A7934E7000247AF /* Card.swift in Sources */,
 				F0DE94472A79353B000247AF /* Carousel.swift in Sources */,
 				F07236E92A5ED89800EED246 /* SearchBar.swift in Sources */,
@@ -502,6 +646,7 @@
 				F0661DD12A640096001EF295 /* VideoPlayer.swift in Sources */,
 				F09697AE2A5D7C8800C7774F /* Datas.swift in Sources */,
 				F0661DDC2A6406D7001EF295 /* CurvedTabbar.swift in Sources */,
+				F02A424D2A9B4B70001ABC08 /* TripCard.swift in Sources */,
 				F0661DD92A64049F001EF295 /* SwiftNoti.swift in Sources */,
 				F07236EC2A5EDB3E00EED246 /* ContextMenu.swift in Sources */,
 				F0511B432A695A2E00FF3391 /* NavigationMenu.swift in Sources */,
@@ -527,6 +672,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0C987E92A9B64F80023F22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C987F22A9B64F90023F22C /* EWidgetBundle.swift in Sources */,
+				F0C987F42A9B64F90023F22C /* EWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -539,6 +693,11 @@
 			isa = PBXTargetDependency;
 			target = F09697782A5D770400C7774F /* SwiftUIExample */;
 			targetProxy = F09697942A5D770600C7774F /* PBXContainerItemProxy */;
+		};
+		F0C987F92A9B64FA0023F22C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0C987EC2A9B64F80023F22C /* EWidgetExtension */;
+			targetProxy = F0C987F82A9B64FA0023F22C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -660,6 +819,7 @@
 		F096979E2A5D770600C7774F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -673,6 +833,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -689,6 +850,7 @@
 		F096979F2A5D770600C7774F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -702,6 +864,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -791,6 +954,60 @@
 			};
 			name = Release;
 		};
+		F0C987FC2A9B64FA0023F22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBV5N68S3R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papayetoo.SwiftUIExample.EWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0C987FD2A9B64FA0023F22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBV5N68S3R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papayetoo.SwiftUIExample.EWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -826,6 +1043,15 @@
 			buildConfigurations = (
 				F09697A42A5D770600C7774F /* Debug */,
 				F09697A52A5D770600C7774F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C987FB2A9B64FA0023F22C /* Build configuration list for PBXNativeTarget "EWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C987FC2A9B64FA0023F22C /* Debug */,
+				F0C987FD2A9B64FA0023F22C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -33,13 +33,13 @@ struct ActionSheet: View {
                 show.toggle()
             }
         }
-        .animation(.default)
+        .animation(.easeInOut(duration: 0.3), value: show)
     }
 }
 
 struct ActionSheet_Previews: PreviewProvider {
     static var previews: some View {
-        ActionSheet()
+        ActionSheet()     
     }
 }
 

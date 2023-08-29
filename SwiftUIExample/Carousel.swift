@@ -27,7 +27,7 @@ struct Carousel: View {
                 }
             }.frame(width: 400, height: 300)
         }
-        .scrollIndicators(.hidden)
+//        .scrollIndicators(.hidden)
         .padding(.horizontal, 15)
         .padding(.top, 30)
     }
