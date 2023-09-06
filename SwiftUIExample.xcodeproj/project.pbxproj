@@ -55,6 +55,9 @@
 		F0C988072A9E23900023F22C /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C988062A9E23900023F22C /* CustomCorner.swift */; };
 		F0DE94452A7934E7000247AF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE94442A7934E7000247AF /* Card.swift */; };
 		F0DE94472A79353B000247AF /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE94462A79353B000247AF /* Carousel.swift */; };
+		F0E1C5CC2AA8A882005B7675 /* PhotoPickerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C5CB2AA8A882005B7675 /* PhotoPickerHome.swift */; };
+		F0E1C5CE2AA8A88D005B7675 /* PhotosPickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C5CD2AA8A88D005B7675 /* PhotosPickerModel.swift */; };
+		F0E1C5D02AA8AA8D005B7675 /* MediaFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C5CF2AA8AA8D005B7675 /* MediaFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +148,10 @@
 		F0C988062A9E23900023F22C /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 		F0DE94442A7934E7000247AF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F0DE94462A79353B000247AF /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		F0E1C5CB2AA8A882005B7675 /* PhotoPickerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerHome.swift; sourceTree = "<group>"; };
+		F0E1C5CD2AA8A88D005B7675 /* PhotosPickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerModel.swift; sourceTree = "<group>"; };
+		F0E1C5CF2AA8AA8D005B7675 /* MediaFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFile.swift; sourceTree = "<group>"; };
+		F0E1C5D12AA8ACC9005B7675 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F0FEB2802A9B620C00247C97 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		F0FEB2822A9B620C00247C97 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -333,6 +340,7 @@
 		F096977B2A5D770400C7774F /* SwiftUIExample */ = {
 			isa = PBXGroup;
 			children = (
+				F0E1C5CA2AA8A877005B7675 /* PhotoPicker */,
 				F0C988012A9E1A680023F22C /* AnimationChallenge */,
 				F0C987FE2A9E15C90023F22C /* Charts */,
 				F02A424B2A9B4B46001ABC08 /* CarouselScroll */,
@@ -438,6 +446,17 @@
 				F0C988062A9E23900023F22C /* CustomCorner.swift */,
 			);
 			path = AnimationChallenge;
+			sourceTree = "<group>";
+		};
+		F0E1C5CA2AA8A877005B7675 /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F0E1C5CB2AA8A882005B7675 /* PhotoPickerHome.swift */,
+				F0E1C5CD2AA8A88D005B7675 /* PhotosPickerModel.swift */,
+				F0E1C5CF2AA8AA8D005B7675 /* MediaFile.swift */,
+				F0E1C5D12AA8ACC9005B7675 /* README.md */,
+			);
+			path = PhotoPicker;
 			sourceTree = "<group>";
 		};
 		F0FEB27F2A9B620C00247C97 /* Frameworks */ = {
@@ -622,12 +641,14 @@
 				F09697B22A5D801A00C7774F /* JSONParsingList.swift in Sources */,
 				F096977F2A5D770400C7774F /* ContentView.swift in Sources */,
 				F0511B452A696CB700FF3391 /* SwipeMenu.swift in Sources */,
+				F0E1C5CC2AA8A882005B7675 /* PhotoPickerHome.swift in Sources */,
 				F0661DE92A6570BC001EF295 /* CustomAlert.swift in Sources */,
 				F07236EF2A5EDC2C00EED246 /* ImagePicker.swift in Sources */,
 				F096977D2A5D770400C7774F /* SwiftUIExampleApp.swift in Sources */,
 				F0C988032A9E1A9D0023F22C /* Album.swift in Sources */,
 				F07236E62A5ED73600EED246 /* TopBar.swift in Sources */,
 				F0C988052A9E1AB50023F22C /* AlbumHome.swift in Sources */,
+				F0E1C5CE2AA8A88D005B7675 /* PhotosPickerModel.swift in Sources */,
 				F0C988072A9E23900023F22C /* CustomCorner.swift in Sources */,
 				F0661DD72A64030B001EF295 /* MyView.swift in Sources */,
 				F0661DD42A640217001EF295 /* MyViewController.swift in Sources */,
@@ -645,6 +666,7 @@
 				F09697B72A5D808E00C7774F /* Page2.swift in Sources */,
 				F0661DD12A640096001EF295 /* VideoPlayer.swift in Sources */,
 				F09697AE2A5D7C8800C7774F /* Datas.swift in Sources */,
+				F0E1C5D02AA8AA8D005B7675 /* MediaFile.swift in Sources */,
 				F0661DDC2A6406D7001EF295 /* CurvedTabbar.swift in Sources */,
 				F02A424D2A9B4B70001ABC08 /* TripCard.swift in Sources */,
 				F0661DD92A64049F001EF295 /* SwiftNoti.swift in Sources */,
